@@ -2,8 +2,8 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 
 # Directories
-ITEMS_DIR = '~/Items/ob'
-WATERMARK_DIR = '~/watermark'
+ITEMS_DIR = 'Items/ob'
+WATERMARK_DIR = 'water'
 
 # Ensure the watermark directory exists
 os.makedirs(WATERMARK_DIR, exist_ok=True)
